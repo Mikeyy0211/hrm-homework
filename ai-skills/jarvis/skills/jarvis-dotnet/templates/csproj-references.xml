@@ -1,0 +1,40 @@
+<!-- ProjectReference đầy đủ — tham chiếu Sample/Sample.csproj -->
+<!-- Framework packages nằm trong frameworks/; Domain/Application vẫn ở root repo -->
+<!-- Chỉ copy module cần dùng, không bắt buộc reference hết -->
+
+<ItemGroup>
+  <!-- Persistence -->
+  <ProjectReference Include="..\frameworks\Jarvis.EntityFramework\Jarvis.EntityFramework.csproj" />
+  <ProjectReference Include="..\frameworks\Jarvis.EntityFramework.PostgreSql\Jarvis.EntityFramework.PostgreSql.csproj" />
+
+  <!-- Web & API -->
+  <ProjectReference Include="..\frameworks\Jarvis.Mvc\Jarvis.Mvc.csproj" />
+  <ProjectReference Include="..\frameworks\Jarvis.Swashbuckle\Jarvis.Swashbuckle.csproj" />
+
+  <!-- Cross-cutting -->
+  <ProjectReference Include="..\frameworks\Jarvis.OpenTelemetry\Jarvis.OpenTelemetry.csproj" />
+  <ProjectReference Include="..\frameworks\Jarvis.HealthChecks\Jarvis.HealthChecks.csproj" />
+  <ProjectReference Include="..\frameworks\Jarvis.OpenTelemetry.Instrumentation.StackExchangeRedis\Jarvis.OpenTelemetry.Instrumentation.StackExchangeRedis.csproj" />
+
+  <!-- Caching -->
+  <ProjectReference Include="..\frameworks\Jarvis.Caching.Redis\Jarvis.Caching.Redis.csproj" />
+
+  <!-- Authentication -->
+  <ProjectReference Include="..\frameworks\Jarvis.Authentication.Jwt\Jarvis.Authentication.Jwt.csproj" />
+  <ProjectReference Include="..\frameworks\Jarvis.Authentication.ApiKey\Jarvis.Authentication.ApiKey.csproj" />
+  <ProjectReference Include="..\frameworks\Jarvis.Authentication.Cognito\Jarvis.Authentication.Cognito.csproj" />
+
+  <!-- Blob -->
+  <ProjectReference Include="..\frameworks\Jarvis.BlobStoring.FileSystem\Jarvis.BlobStoring.FileSystem.csproj" />
+  <ProjectReference Include="..\frameworks\Jarvis.BlobStoring.MinIO\Jarvis.BlobStoring.MinIO.csproj" />
+
+  <!-- Notification -->
+  <ProjectReference Include="..\frameworks\Jarvis.Notification.Mailkit\Jarvis.Notification.Mailkit.csproj" />
+</ItemGroup>
+
+<!-- NuGet bổ sung thường gặp (host-owned, không thuộc Jarvis package) -->
+<ItemGroup>
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.*" />
+  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.*" />
+  <PackageReference Include="Serilog.AspNetCore" Version="9.0.*" />
+</ItemGroup>
