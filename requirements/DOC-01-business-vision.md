@@ -1,4 +1,4 @@
-# DOC-01 Business Vision & Scope
+# DOC-01 Vision & Business Case
 
 ## 1. Document Information
 
@@ -9,7 +9,15 @@
 | Status | Draft |
 | Created From | `SRC-HRM-01` đến `SRC-HRM-08`; `discovery/requirement-traceability.md`; `discovery/hrm-domain-breakdown.md`; `discovery/assumption-audit.md` |
 
-## 2. Business Context
+## 2. Business Problem
+
+**Confirmed:** No business problem has been provided.
+
+**Gap:** Requires stakeholder confirmation.
+
+Nguồn chỉ xác nhận các capability HRM; không xác nhận vấn đề nghiệp vụ hiện tại dẫn tới dự án.
+
+## 3. Business Vision
 
 ### Bối cảnh nghiệp vụ đã được xác nhận
 
@@ -36,23 +44,31 @@ Nguồn xác nhận nhu cầu về tám nhóm capability HRM được liệt kê
 - **TBD — Requires confirmation:** Các quy tắc chi tiết, actor bổ sung, dữ liệu, quy trình và tiêu chí vận hành của từng capability.
 - **TBD — Requires confirmation:** Ranh giới tổ chức/pháp nhân/chi nhánh áp dụng.
 
-## 3. Business Objectives
+### Expected business direction
 
-### Confirmed Objectives
+**TBD — Requires confirmation:** Nguồn không xác nhận hướng thay đổi hoặc kết quả nghiệp vụ mong đợi ngoài việc cần hỗ trợ tám capability đã nêu.
 
-Không có business objective được diễn đạt rõ ràng trong nguồn được phép sử dụng. Các `SRC-HRM` xác nhận capability, không xác nhận mục tiêu kinh doanh hoặc kết quả mong đợi.
+## 4. Business Objectives
 
-### Objectives Pending Confirmation
+### G-001
 
-- **TBD — Requires confirmation:** Mục tiêu kinh doanh của dự án HRM.
-- **TBD — Requires confirmation:** Vấn đề nghiệp vụ cần giải quyết.
-- **TBD — Requires confirmation:** Kết quả mong đợi và mức ưu tiên giữa các capability.
+**Objective:** TBD — Requires confirmation. Không có business objective được diễn đạt rõ ràng trong nguồn được phép sử dụng.
 
-## 4. Business Case
+**Metric:** TBD — Requires confirmation.
 
-**TBD — Requires confirmation:** Không có evidence về business case, lợi ích định lượng, chi phí, ROI hoặc phương án thay thế trong các nguồn được phép sử dụng.
+**Target:** TBD — Requires confirmation.
 
-## 5. Scope
+## 5. Business Case
+
+**Benefit:** TBD — Requires confirmation.
+
+**Cost:** TBD — Requires confirmation.
+
+**Decision:** Requires stakeholder confirmation.
+
+Không có evidence về business benefit, chi phí, ROI hoặc phương án thay thế trong các nguồn được phép sử dụng.
+
+## 6. Scope
 
 ### In Scope
 
@@ -74,7 +90,19 @@ Các mục dưới đây không được xác nhận trong nguồn được phé
 - Các chức năng HRM phổ biến không có source, bao gồm nhưng không giới hạn: quản lý loại/hạn mức nghỉ, tuyển dụng, đào tạo, đánh giá hiệu suất, thuế/bảo hiểm, quản lý ca làm, tích hợp, phân quyền, bảo mật/audit và lưu trữ dữ liệu.
 - Mọi quyết định chưa được khách hàng xác nhận, gồm business goal, success criteria, stakeholder ngoài các actor có nguồn, ranh giới tổ chức, và các quy tắc chi tiết của tám capability.
 
-## 6. Stakeholders
+## 7. High Level Risks
+
+### R-001
+
+**Risk:** Business rules are not fully confirmed.
+
+**Impact:** Requirement changes may occur.
+
+**Mitigation:** Discovery confirmation required.
+
+Đây là rủi ro Discovery phát sinh từ các khoảng trống được ghi nhận; không phải một business rule hay rủi ro kỹ thuật được nguồn xác nhận.
+
+## 8. Stakeholders
 
 | Stakeholder | Evidence | Vai trò đã được xác nhận |
 |---|---|---|
@@ -84,11 +112,11 @@ Các mục dưới đây không được xác nhận trong nguồn được phé
 
 **TBD — Requires confirmation:** Các stakeholder khác, sponsor/project owner, người ký duyệt tài liệu và RACI.
 
-## 7. Success Criteria
+## 9. Success Criteria
 
 **TBD — Requires confirmation:** Không có KPI, chỉ số thành công, hoặc tiêu chí nghiệm thu được xác nhận trong các nguồn được phép sử dụng.
 
-## 8. Open Issues
+## 10. Open Issues
 
 Các vấn đề chưa xác nhận được quản lý trong **DOC-03 Discovery Questions**.
 
@@ -103,7 +131,7 @@ Các vấn đề chưa xác nhận được quản lý trong **DOC-03 Discovery 
 | Trigger, trách nhiệm và quy tắc hoàn thành onboarding/offboarding. | `SRC-HRM-07`; TBD — DOC-03 Discovery Questions |
 | Định nghĩa, chỉ số và nhu cầu sử dụng báo cáo biến động nhân sự. | `SRC-HRM-08`; TBD — DOC-03 Discovery Questions |
 
-## 9. Traceability and Assumption Control
+## 11. Traceability and Assumption Control
 
 - Mọi capability in-scope đều có `Source Reference` trỏ tới một `SRC-HRM`.
 - Không có assumption được đưa vào như fact; xem `discovery/assumption-audit.md`.

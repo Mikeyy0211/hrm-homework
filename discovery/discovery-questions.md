@@ -1,13 +1,13 @@
-# DOC-03 Discovery Questions
+# Supporting Discovery Questions (Former DOC-03)
 
 ## 1. Document Information
 
 | Field | Value |
 |---|---|
-| Document ID | DOC-03 |
+| Document ID | Supporting Discovery Questions (Former DOC-03) |
 | Version | — |
 | Status | Draft |
-| Created From | `discovery/requirement-traceability.md`; `discovery/hrm-domain-breakdown.md`; `discovery/assumption-audit.md`; `requirements/DOC-01-business-vision.md`; `requirements/DOC-02-functional-requirements.md` |
+| Created From | `discovery/requirement-traceability.md`; `discovery/hrm-domain-breakdown.md`; `discovery/assumption-audit.md`; `requirements/DOC-01-business-vision.md`; `supporting/functional-requirements-working-document.md` |
 
 ## 2. Discovery Question List
 
@@ -27,7 +27,7 @@ Các câu hỏi dưới đây là câu hỏi cần xác nhận với stakeholder
 **Category:** Business  
 **Question:** Business objective chính của dự án HRM là gì?  
 **Why This Matters:** Không thể coi tám capability là business objective nếu chưa được xác nhận.  
-**Related Source:** DOC-01 §3; `SRC-HRM-01` đến `SRC-HRM-08`.  
+**Related Source:** DOC-01 §4; `SRC-HRM-01` đến `SRC-HRM-08`.
 **Impact:** Business Vision, scope prioritisation và các quyết định sau Discovery.  
 **Priority:** High
 
@@ -35,7 +35,7 @@ Các câu hỏi dưới đây là câu hỏi cần xác nhận với stakeholder
 **Category:** Business  
 **Question:** Ai là sponsor hoặc business owner có quyền quyết định các yêu cầu nghiệp vụ?  
 **Why This Matters:** Chưa có owner có evidence để xác nhận hoặc giải quyết các câu hỏi mở.  
-**Related Source:** DOC-01 §5; `SRC-HRM-01` đến `SRC-HRM-08`.  
+**Related Source:** DOC-01 §10; `SRC-HRM-01` đến `SRC-HRM-08`.
 **Impact:** Governance, phê duyệt requirement và xử lý mâu thuẫn.  
 **Priority:** High
 
@@ -43,7 +43,7 @@ Các câu hỏi dưới đây là câu hỏi cần xác nhận với stakeholder
 **Category:** Business  
 **Question:** Success criteria hoặc cách đánh giá dự án thành công là gì?  
 **Why This Matters:** Không có KPI hay tiêu chí thành công được nguồn xác nhận.  
-**Related Source:** DOC-01 §6; `SRC-HRM-01` đến `SRC-HRM-08`.  
+**Related Source:** DOC-01 §9; `SRC-HRM-01` đến `SRC-HRM-08`.
 **Impact:** Xác nhận outcome và đánh giá kết quả dự án.  
 **Priority:** High
 
@@ -51,7 +51,7 @@ Các câu hỏi dưới đây là câu hỏi cần xác nhận với stakeholder
 **Category:** Scope  
 **Question:** Hệ thống áp dụng cho tổ chức, pháp nhân, chi nhánh hoặc địa điểm nào?  
 **Why This Matters:** Ranh giới tổ chức chưa được xác nhận.  
-**Related Source:** DOC-01 §2 và §4; `SRC-HRM-01` đến `SRC-HRM-08`.  
+**Related Source:** DOC-01 §3 và §6; `SRC-HRM-01` đến `SRC-HRM-08`.
 **Impact:** Scope, dữ liệu và các quy tắc vận hành có thể áp dụng.  
 **Priority:** Medium
 
@@ -59,7 +59,7 @@ Các câu hỏi dưới đây là câu hỏi cần xác nhận với stakeholder
 **Category:** Scope  
 **Question:** Có capability, quy trình hoặc quyết định nào được xác nhận là ngoài phạm vi dự án không?  
 **Why This Matters:** DOC-01 chỉ ghi các nội dung không có source là chưa được xác nhận, không phải quyết định loại trừ vĩnh viễn.  
-**Related Source:** DOC-01 §4 Out of Scope; `SRC-HRM-01` đến `SRC-HRM-08`.  
+**Related Source:** DOC-01 §6 Out of Scope; `SRC-HRM-01` đến `SRC-HRM-08`.
 **Impact:** Tránh scope creep và phân biệt “chưa xác nhận” với “ngoài phạm vi”.  
 **Priority:** Medium
 
@@ -77,7 +77,7 @@ Các câu hỏi dưới đây là câu hỏi cần xác nhận với stakeholder
 **Category:** Employee Management  
 **Question:** Actor nào được tạo, cập nhật, xem hoặc quản lý hồ sơ nhân sự?  
 **Why This Matters:** Actor của Employee Management chưa được xác nhận.  
-**Related Source:** EMP-FR-001; DOC-01 §5.  
+**Related Source:** EMP-FR-001; DOC-01 §8.
 **Impact:** Process flow và trách nhiệm nghiệp vụ của hồ sơ nhân sự.  
 **Priority:** High
 
