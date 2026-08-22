@@ -48,7 +48,11 @@ Không có business objective được diễn đạt rõ ràng trong nguồn đ�
 - **TBD — Requires confirmation:** Vấn đề nghiệp vụ cần giải quyết.
 - **TBD — Requires confirmation:** Kết quả mong đợi và mức ưu tiên giữa các capability.
 
-## 4. Scope
+## 4. Business Case
+
+**TBD — Requires confirmation:** Không có evidence về business case, lợi ích định lượng, chi phí, ROI hoặc phương án thay thế trong các nguồn được phép sử dụng.
+
+## 5. Scope
 
 ### In Scope
 
@@ -70,7 +74,7 @@ Các mục dưới đây không được xác nhận trong nguồn được phé
 - Các chức năng HRM phổ biến không có source, bao gồm nhưng không giới hạn: quản lý loại/hạn mức nghỉ, tuyển dụng, đào tạo, đánh giá hiệu suất, thuế/bảo hiểm, quản lý ca làm, tích hợp, phân quyền, bảo mật/audit và lưu trữ dữ liệu.
 - Mọi quyết định chưa được khách hàng xác nhận, gồm business goal, success criteria, stakeholder ngoài các actor có nguồn, ranh giới tổ chức, và các quy tắc chi tiết của tám capability.
 
-## 5. Stakeholders
+## 6. Stakeholders
 
 | Stakeholder | Evidence | Vai trò đã được xác nhận |
 |---|---|---|
@@ -80,11 +84,11 @@ Các mục dưới đây không được xác nhận trong nguồn được phé
 
 **TBD — Requires confirmation:** Các stakeholder khác, sponsor/project owner, người ký duyệt tài liệu và RACI.
 
-## 6. Success Criteria
+## 7. Success Criteria
 
 **TBD — Requires confirmation:** Không có KPI, chỉ số thành công, hoặc tiêu chí nghiệm thu được xác nhận trong các nguồn được phép sử dụng.
 
-## 7. Open Issues
+## 8. Open Issues
 
 Các vấn đề chưa xác nhận được quản lý trong **DOC-03 Discovery Questions**.
 
@@ -99,7 +103,7 @@ Các vấn đề chưa xác nhận được quản lý trong **DOC-03 Discovery 
 | Trigger, trách nhiệm và quy tắc hoàn thành onboarding/offboarding. | `SRC-HRM-07`; TBD — DOC-03 Discovery Questions |
 | Định nghĩa, chỉ số và nhu cầu sử dụng báo cáo biến động nhân sự. | `SRC-HRM-08`; TBD — DOC-03 Discovery Questions |
 
-## 8. Traceability and Assumption Control
+## 9. Traceability and Assumption Control
 
 - Mọi capability in-scope đều có `Source Reference` trỏ tới một `SRC-HRM`.
 - Không có assumption được đưa vào như fact; xem `discovery/assumption-audit.md`.
