@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hrm.Domain\Hrm.Domain.csproj" />
+    <ProjectReference Include="..\..\..\..\jarvis\frameworks\Jarvis.DDD.Application\Jarvis.DDD.Application.csproj" />
+    <ProjectReference Include="..\..\..\..\jarvis\frameworks\Jarvis.DDD.Application.Contracts\Jarvis.DDD.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

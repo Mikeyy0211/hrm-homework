@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+frontend/dist/
+autotest/node_modules/
+autotest/test-results/
+autotest/playwright-report/
+.DS_Store
